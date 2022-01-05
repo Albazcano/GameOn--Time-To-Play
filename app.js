@@ -3,21 +3,21 @@ let result_ref = document.getElementById("result");
 let choices_object = {
     'rock' : {
         'rock' : 'draw',
-        'scissor' : 'win',
+        'scissors' : 'win', 
         'paper' : 'lose',
-        'lizzard' : 'win',
+        'lizzard' : 'win', 
         'spock' : 'lose',
     },
     'scissor' : {
         'rock' : 'lose',
-        'scissor' : 'draw',
+        'scissors' : 'draw',
         'paper' : 'win',
         'lizzard' : 'win',
         'spock' : 'lose',
     },
     'paper' : {
         'rock' : 'win',
-        'scissor' : 'lose',
+        'scissors' : 'lose',
         'paper' : 'draw',
         'lizzard' : 'lose',
         'spock' : 'win',
@@ -29,7 +29,7 @@ let choices_object = {
         'rock' : 'lose',
         'lizzard': 'draw',
     },
-    'Spock' : {
+    'spock' : {
        'scissors': 'win',
         'rock' : 'win',
         'paper' : 'lose',
@@ -40,7 +40,7 @@ let choices_object = {
 }
 
 function checker(input){
-    var choices = ["rock", "paper", "scissor", "lizzard", "spock"];
+    var choices = ["rock", "paper", "scissors", "lizzard", "spock"];
     var num = Math.floor(Math.random()*5);
 
     document.getElementById("comp_choice").innerHTML = 
@@ -67,6 +67,8 @@ function checker(input){
             result_ref.innerHTML = "DRAW";
             break;
     }
+
+    document.getElementById(comparison).innerHTML =
 
     document.getElementById("computer_score").innerHTML = computer_score;
     document.getElementById("user_score").innerHTML = user_score;
