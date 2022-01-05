@@ -14,34 +14,47 @@
 
 h1{
     margin: 50px;
-    text-align: center;
     font-family: Montserrat,Arial,"Helvetica Neue",Helvetica,sans-serif;
     font-size: 35px;
+    text-align: center;
     /* background-color:mediumvioletred */
 }
 
-body{
-    
-    height: 500vh;
+body{ 
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center; 
+    padding: 30px;    
     background: linear-gradient(
-        135deg,
+        0.25turn,
         #1bfff4,
         #1bbeff 
     );
-    background-color: red;
+    border: 5px solid black;
+    /* margin: 300px; */
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
-    width: 65%;
-    min-width: 500px;
+    margin-top: 250px;
+    margin-left: 350px;
+    width: max-content;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 45%;
+    min-width: 500px; */
     background-color: #ffffff;
-    padding: 40px 30px;
-    position: absolute;
+    padding: 30px;
+    /* position: absolute; */
     transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+    /* top: 50%; */
+    /* left: 50%; */
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+    /* border: 5px solid fuchsia; */
 }
 .scores{
     margin-bottom: 50px;
