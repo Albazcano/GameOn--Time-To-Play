@@ -26,14 +26,17 @@ footer{
     font-weight: 500px;
     font-style: italic;
     text-align: center; 
+    margin-top: 10px;
 }
 
 .minigame{ 
-    margin-top: 25px;
-    margin-left: 500px;
+    /* margin-top: 25px;
+    margin-left: 430px;
     margin-right: 100px;
-    align-items: center; 
-    padding: 30px;    
+    align-items: center; */
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;     
     background: linear-gradient(
         0.25turn,
         #1bfff4,
@@ -44,31 +47,32 @@ footer{
     display: flex;
     flex-direction: column;
     /* max-width: min-content;*/
-    max-height: 700px; 
-    max-width: 420px;
+    /* max-height: 700px; 
+    max-width: 720px;
     height: 90vh;
-    max-height: 800px;
+    max-height: 800px; */
 }
 
 .container{
-    margin-top: 150px;
-    margin-left: 400px;
-    width: 400px;
-    /* width: max-content;    */
-    display: flex;
+    /* margin-top: 150px; */
+    display: flex; 
     flex-direction: column;
-    justify-content: center;
-    /* width: 45%;
-    min-width: 500px; */
+    align-items: center;
+    margin-bottom: 10px;
+    
+    /* margin-left: 600px; */
+    /* width: 650px;*/
     background-color: #84fffff1;
     padding: 10px;
-    /* position: absolute; */
-    transform: translate(-50%,-50%);
-    /* top: 50%; */
-    /* left: 50%; */
+    /* transform: translate(-50%,-50%);    */
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.15);
-    /* border: 5px solid fuchsia; */
+     /* width: 45%;
+    min-width: 500px;
+    position: absolute; 
+    top: 50%;
+    left: 50%; */
+    /* border: 5px solid fuchsia;  */
 }
 .scores{
     margin-bottom: 50px;
