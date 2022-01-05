@@ -5,12 +5,27 @@
     margin: 0;
     box-sizing: border-box;
 } */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+    font-family: Montserrat,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 35px;
+    /* background-color:mediumvioletred */
+}
+
 body{
     height: 100vh;
     background: linear-gradient(
         135deg,
-        #ffcf1b,
-        #ff8b1b
+        #1bfff4,
+        #1bbeff 
     );
 }
 .container{
@@ -36,7 +51,7 @@ body{
     justify-content: space-around;
 }
 .weapons button{
-    background-color: #ffd51b;
+    background-color: #1bffff;
     color: #000000;
     border: none;
     font-size: 50px;
