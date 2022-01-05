@@ -2,13 +2,20 @@
 
 Crea un juego con javascript (utiliza lo aprendido, variables, funciones, bucles, código modular, ...), de temática libre o eligiendo una de las opciones que encontrarás a continuación.
 
-En mi caso he elegido el famoso juego piedra, papel o tijera
+En mi caso he elegido el juego piedra, papel, tijera, lagarto o Spock
 
 ## Reglas
 
-1. La tijera gana al papel porque le puede cortar.
-2. La piedra gana a las tijeras porque las rompe.
-3. El papel gana a la piedra porque la envuelve.
+1. Tijeras corta papel
+2. Papel cubre roca
+3. Roca tritura lagarto
+4. Lagarto envenena a Spock
+5. Spock rompe tijeras
+6. Tijeras decapitan al lagarto
+7. Lagarto se come papel
+8. Papel refuta a Spock
+9. Spock vaporiza la roca
+10.Piedra tritura tijeras
 
 ## Extra
 

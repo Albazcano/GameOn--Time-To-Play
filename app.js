@@ -4,24 +4,44 @@ let choices_object = {
     'rock' : {
         'rock' : 'draw',
         'scissor' : 'win',
-        'paper' : 'lose'
+        'paper' : 'lose',
+        'lizzard' : 'win',
+        'spock' : 'lose',
     },
     'scissor' : {
         'rock' : 'lose',
         'scissor' : 'draw',
-        'paper' : 'win'
+        'paper' : 'win',
+        'lizzard' : 'win',
+        'spock' : 'lose',
     },
     'paper' : {
         'rock' : 'win',
         'scissor' : 'lose',
-        'paper' : 'draw'
+        'paper' : 'draw',
+        'lizzard' : 'lose',
+        'spock' : 'win',
+    },
+    'lizzard' : {
+        'spock' : 'win',
+        'paper' : 'win',
+        'scissors': 'lose',
+        'rock' : 'lose',
+        'lizzard': 'draw',
+    },
+    'Spock' : {
+       'scissors': 'win',
+        'rock' : 'win',
+        'paper' : 'lose',
+        'lizzard' : 'lose',
+        'spock' : 'draw'
     }
 
 }
 
 function checker(input){
-    var choices = ["rock", "paper", "scissor"];
-    var num = Math.floor(Math.random()*3);
+    var choices = ["rock", "paper", "scissor", "lizzard", "spock"];
+    var num = Math.floor(Math.random()*5);
 
     document.getElementById("comp_choice").innerHTML = 
     ` Computer choose <span> ${choices[num].toUpperCase()} </span>`;
