@@ -68,8 +68,6 @@ function checker(input){
             break;
     }
 
-    document.getElementById(comparison).innerHTML =
-
     document.getElementById("computer_score").innerHTML = computer_score;
     document.getElementById("user_score").innerHTML = user_score;
 }
