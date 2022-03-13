@@ -15,7 +15,7 @@ En mi caso he elegido el juego piedra, papel, tijera, lagarto o Spock
 7. Lagarto se come papel
 8. Papel refuta a Spock
 9. Spock vaporiza la roca
-10.Piedra tritura tijeras
+10. Piedra tritura tijeras
 
 ## Extra
 
